@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-source activate carnd-term1
+# source activate carnd-term1
 
 cd /mnt/s0
 CUDA_VISIBLE_DEVICES='0' jupyter notebook --port=8888 &
