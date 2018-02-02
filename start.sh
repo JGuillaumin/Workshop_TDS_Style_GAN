@@ -23,6 +23,13 @@ sudo tar -C s1/ -xzf cat_dataset.tar.gz.tar.gz
 sudo tar -C s2/ -xzf cat_dataset.tar.gz.tar.gz
 sudo tar -C s3/ -xzf cat_dataset.tar.gz.tar.gz
 
+sudo cp -rp ~/Workshop_TDS_Style_GAN/* /mnt/s0/
+sudo cp -rp ~/Workshop_TDS_Style_GAN/* /mnt/s1/
+sudo cp -rp ~/Workshop_TDS_Style_GAN/* /mnt/s2/
+sudo cp -rp ~/Workshop_TDS_Style_GAN/* /mnt/s3/
+
+
+cd ~/Workshop_TDS_Style_GAN/
 
 screen -dm -S sess_jupyter bash -c "./_start.sh; exec sh"
 exit
